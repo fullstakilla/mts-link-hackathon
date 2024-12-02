@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "MTS";
+  src: url("../assets/MTS/MTSText-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MTS";
+  src: url("../assets/MTS/MTSText-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MTS";
+  src: url("../assets/MTS/MTSText-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MTS";
+  src: url("../assets/MTS/MTSText-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+$mts: "MTS", sans-serif;
